@@ -1,0 +1,21 @@
+# --- Core web framework ---
+Flask==3.0.3
+flask-cors==4.0.1
+
+# --- Database ---
+PyMySQL==1.1.1
+
+# --- Auth ---
+PyJWT==2.9.0
+bcrypt==4.2.0
+
+# --- AI Engine (Groq) ---
+groq==0.11.0
+
+# --- OCR ---
+pytesseract==0.3.13
+Pillow==10.4.0
+PyMuPDF==1.24.10
+
+# --- Env management ---
+python-dotenv==1.0.1
