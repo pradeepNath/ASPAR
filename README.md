@@ -328,27 +328,27 @@ Placement Test  →  AI decides starting level  →  Skill tree generated  →  
        │
        ▼
 ┌─────────────────────────────────────────┐
-│                MAIN LOOP                 │
-│                                           │
-│   Study independently                    │
-│           │                              │
-│           ▼                              │
-│   Skill Test  →  ≥80% pass               │
-│   (next skill unlocks)                   │
-│           │                              │
-│           ▼                              │
-│   All skills in level learned            │
-│           │                              │
-│           ▼                              │
-│   Level-Up Test  →  ≥80% pass            │
-│   (advance to next level)                │
-│           │                              │
-│           ▼                              │
-│   Roadmap regenerated  ──────────────────┘
-│
-│   [3 consecutive fails]
-│           │
-└───────────▼──────────────────────────────
+│                MAIN LOOP                │
+│                                         │
+│   Study independently                   │
+│           │                             │
+│           ▼                             │
+│   Skill Test  →  ≥80% pass              │
+│   (next skill unlocks)                  │
+│           │                             │
+│           ▼                             │
+│   All skills in level learned           │
+│           │                             │
+│           ▼                             │
+│   Level-Up Test  →  ≥80% pass           │
+│   (advance to next level)               │
+│           │                             │
+│           ▼                             │
+│   Roadmap regenerated                   │
+│                                         │
+│   [3 consecutive fails]                 │
+│           │                             │
+└───────────▼─────────────────────────────┘
       Career Change (opt-in)
               │
               ▼
