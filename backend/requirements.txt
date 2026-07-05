@@ -1,6 +1,7 @@
 # --- Core web framework ---
 Flask==3.0.3
 flask-cors==4.0.1
+httpx==0.27.2
 
 # --- Database ---
 PyMySQL==1.1.1
@@ -14,8 +15,8 @@ groq==0.11.0
 
 # --- OCR ---
 pytesseract==0.3.13
-Pillow==10.4.0
-PyMuPDF==1.24.10
+Pillow==12.0.0
+PyMuPDF==1.27.2.3
 
 # --- Env management ---
 python-dotenv==1.0.1
