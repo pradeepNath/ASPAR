@@ -318,42 +318,42 @@ All `✓` routes require an `Authorization: Bearer <token>` header.
 ## Student Journey
 
 ```
-                           Register / Login
-                                 │
-                                 ▼
-                           Set Dream Career  →  Add Academic Results (manual / OCR upload / skip)
-                                 │
-                                 ▼
-                           Placement Test  →  AI decides starting level  →  Skill tree generated  →  Roadmap created
-                                 │
-                                 ▼
-                           ┌─────────────────────────────────────────┐
-                           │                MAIN LOOP                │
-                           │                                         │
-                           │   Study independently                   │
-                           │           │                             │
-                           │           ▼                             │
-                           │   Skill Test  →  ≥80% pass              │
-                           │   (next skill unlocks)                  │
-                           │           │                             │
-                           │           ▼                             │
-                           │   All skills in level learned           │
-                           │           │                             │
-                           │           ▼                             │
-                           │   Level-Up Test  →  ≥80% pass           │
-                           │   (advance to next level)               │
-                           │           │                             │
-                           │           ▼                             │
-                           │   Roadmap regenerated                   │
-                           │                                         │
-                           │   [3 consecutive fails]                 │
-                           │           │                             │
-                           └───────────▼─────────────────────────────┘
-                                 Career Change (opt-in)
-                                       │
-                                       ▼
-                              AI suggests 3 alternative careers
-                           ```
+                                                Register / Login
+                                                      │
+                                                      ▼
+                     Set Dream Career  →  Add Academic Results (manual / OCR upload / skip)
+                                                      │
+                                                      ▼
+            Placement Test  →  AI decides starting level  →  Skill tree generated  →  Roadmap created
+                                                      │
+                                                      ▼
+                                 ┌─────────────────────────────────────────┐
+                                 │                MAIN LOOP                │
+                                 │                                         │
+                                 │           Study independently           │
+                                 │                    │                    │
+                                 │                    ▼                    │
+                                 │        Skill Test  →  ≥80% pass         │
+                                 │           (next skill unlocks)          │
+                                 │                    │                    │
+                                 │                    ▼                    │
+                                 │      All skills in level learned        │
+                                 │                    │                    │
+                                 │                    ▼                    │
+                                 │      Level-Up Test  →  ≥80% pass        │
+                                 │        (advance to next level)          │
+                                 │                    │                    │
+                                 │                    ▼                    │
+                                 │          Roadmap regenerated            │
+                                 │                                         │
+                                 │          [3 consecutive fails]          │
+                                 │                    │                    │
+                                 └────────────────────▼────────────────────┘
+                                          Career Change (opt-in)
+                                                      │
+                                                      ▼
+                                       AI suggests 3 alternative careers
+   ```
 
 ---
 
