@@ -123,7 +123,7 @@ Each function below is an independent, separately testable call — nothing is b
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/aspar.git
+git clone https://github.com/pradeepNath/ASPAR.git
 cd aspar
 ```
 
